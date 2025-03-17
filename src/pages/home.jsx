@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 export default function Home({ setTitle }) {
     useEffect(() => {
@@ -11,6 +12,10 @@ export default function Home({ setTitle }) {
         <div>
             <h1>Home</h1>
             <p>Welcome to my website!</p>
+
+            <Link to="/second-page">
+                Go to Second Page
+            </Link>
         </div>
     )
 }
