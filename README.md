@@ -56,6 +56,8 @@ npm run dev
 
 Just push to the `main` branch, and GitHub Actions will automatically deploy your site to GitHub Pages.
 
+Once deployed your website will be available at `https://[your-github-username].github.io/[your-repo-name]/#/` (can be found in `Settings > Pages`)
+
 ## 📝 Project Structure
 
 ```
